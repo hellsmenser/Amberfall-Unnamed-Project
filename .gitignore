@@ -1,0 +1,48 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Файлы кэша Ren'Py
+persistent
+cache/
+tmp/
+log.txt
+
+# Сейвы игры
+/saves/*
+!saves/.gitkeep  # Исключение для хранения пустой директории
+
+# Сборочные артефакты
+/build/
+dist/
+*.rpa  # Упакованные архивы Ren'Py
+*.rpyc # Скомпилированные сценарные файлы
+*.rpyb # Байткод сценариев
+
+# Виртуальное окружение Python (если используется)
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Конфигурационные файлы IDE
+.vscode/
+.idea/
+*.iml
+
+# Настройки Ren'Py SDK
+renpy.sh
+renpy.exe
+renpy.app/
+
+# Файлы CI/CD (при необходимости добавить специфичные для используемой системы)
