@@ -6,7 +6,7 @@ repos:
     rev: 6.1.0
     hooks:
       - id: flake8
-        language: python # Указываем Python вместо bash
+        language: python
 
   - repo: https://github.com/psf/black
     rev: 23.3.0
@@ -14,3 +14,17 @@ repos:
       - id: black
         language: python
         args: ["--include", "\\.py$|\\.rpy$"]
+
+  - repo: local
+    hooks:
+      - id: lint-hook
+        name: Lint Hook
+        entry: cmd /c "hooks\lint.bat"
+        language: system
+        stages: [commit]
+
+      - id: branch-hook
+        name: Branch Hook
+        entry: cmd /c "hooks\branch.bat"
+        language: system
+        stages: [commit]

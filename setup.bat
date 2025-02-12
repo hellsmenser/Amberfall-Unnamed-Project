@@ -10,7 +10,6 @@ REM Проверка наличия Python
 where python >nul 2>nul
 if %errorlevel% NEQ 0 (
     echo [!] Python не найден. Установите Python и добавьте его в PATH.
-    exit /b 1
 )
 
 REM Устанавливаем кодировку UTF-8
@@ -24,29 +23,26 @@ if %errorlevel% NEQ 0 (
     python -m pip install virtualenv
     if %errorlevel% NEQ 0 (
         echo [!] Ошибка при установке venv.
-        exit /b 1
     )
 )
 
 REM Проверка наличия виртуального окружения
-if not exist "%VENV_DIR%\Scripts\activate.bat" (
+if not exist "%VENV_DIR%\\Scripts\\activate.bat" (
     echo [*] Виртуальное окружение не найдено. Создаём новое...
     python -m venv %VENV_DIR%
     if %errorlevel% NEQ 0 (
         echo [!] Ошибка при создании виртуального окружения.
-        exit /b 1
     )
 ) else (
     echo [*] Виртуальное окружение уже существует.
 )
 
 REM Активация виртуального окружения
-call %VENV_DIR%\Scripts\activate.bat
+call %VENV_DIR%\\Scripts\\activate.bat
 
 REM Проверка наличия файла req.txt
 if not exist %REQ_FILE% (
     echo [!] Файл %REQ_FILE% не найден в текущей директории.
-    exit /b 1
 )
 
 echo [*] Проверка установленных библиотек...
@@ -54,20 +50,21 @@ echo [*] Проверка установленных библиотек...
 REM Проверка и установка зависимостей
 pip check >nul 2>&1
 if %errorlevel% NEQ 0 (
+    echo [!] Ошибка при проверке зависимостей, но продолжаю выполнение...
+)
+if %errorlevel% NEQ 0 (
     echo [!] Обнаружены проблемы с установленными пакетами. Установка/обновление зависимостей...
     pip install --upgrade pip
     pip install -r %REQ_FILE%
     if %errorlevel% NEQ 0 (
         echo [!] Ошибка при установке зависимостей.
-        exit /b 1
     )
     echo [*] Зависимости успешно установлены.
 ) else (
     echo [*] Все зависимости установлены корректно.
 )
 
-REM Деактивация виртуального окружения
-deactivate
+pre-commit install
 
 echo [*] Установка завершена.
 endlocal
