@@ -6,7 +6,7 @@ REM Название виртуального окружения
 set VENV_DIR=venv
 
 REM Проверка наличия виртуального окружения
-if not exist "%VENV_DIR%\\Scripts\\activate.bat" (
+if not exist "%VENV_DIR%\\Scripts\\activate" (
     echo [!] Виртуальное окружение не найдено. Пожалуйста, создайте его с помощью setup_env.bat
     exit /b 1
 )
