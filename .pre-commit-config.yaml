@@ -28,3 +28,9 @@ repos:
         entry: cmd /c "hooks\branch.bat"
         language: system
         stages: [commit]
+
+      - id: branch-hook
+        name: Branch name Hook
+        entry: cmd /c "hooks\main_commit.bat"
+        language: system
+        stages: [commit]
