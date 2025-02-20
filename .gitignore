@@ -15,6 +15,7 @@ persistent
 cache/
 tmp/
 log.txt
+traceback.txt
 
 # Сейвы игры
 game/saves/*
