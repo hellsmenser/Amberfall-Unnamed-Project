@@ -4,7 +4,7 @@ image anon neutral = im.Flip("game\images\anon\anon_neutral.png", horizontal=Tru
 image anon angry =  im.Flip("game\images\anon\anon_angry.png", horizontal=True)
 image anon very angry = im.Flip("game\images\anon\anon_very angry", horizontal=True)
 image anon sad = im.Flip("game\images\anon\anon_sad", horizontal=True)
-image anon shocked = im.Flip("game\images\anon\anon_shocked", horizontal=Truea)
+image anon shocked = im.Flip("game\images\anon\anon_shocked", horizontal=True)
 image anon considering = im.Flip("game\images\anon\anon_considering", horizontal=True)
 image anon happy = im.Flip("game\images\anon\anon_happy", horizontal=True)
 image anon fear = im.Flip("game\images\anon\anon_fear", horizontal=True)
