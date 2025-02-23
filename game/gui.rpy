@@ -59,13 +59,13 @@ define gui.interface_text_color = '#ffffff'
 ## Шрифты и их размеры #########################################################
 
 ## Шрифт, используемый внутриигровым текстом.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "gui/Arturo-Regular.ttf"
 
 ## Шрифт, используемый именами персонажей.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "gui/Arturo-Regular.ttf"
 
 ## Шрифт, используемый текстом вне игры.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "gui/Arturo-Regular.ttf"
 
 ## Размер нормального текста диалога.
 define gui.text_size = 33
@@ -253,7 +253,8 @@ define gui.file_slot_rows = 2
 
 ## Местоположение левого края навигационных кнопок по отношению к левому краю
 ## экрана.
-define gui.navigation_xpos = 60
+define gui.navigation_xpos = 1367
+define gui.navigation_ypos = 100
 
 ## Вертикальная позиция индикатора пропуска.
 define gui.skip_ypos = 15
@@ -265,7 +266,7 @@ define gui.notify_ypos = 68
 define gui.choice_spacing = 33
 
 ## Кнопки в секции навигации главного и игрового меню.
-define gui.navigation_spacing = 6
+define gui.navigation_spacing = -300
 
 ## Контролирует интервал между настройками.
 define gui.pref_spacing = 15
@@ -365,51 +366,6 @@ define gui.history_text_ypos = 3
 define gui.history_text_width = 1110
 define gui.history_text_xalign = 0.0
 
-
-## Режим NVL ###################################################################
-##
-## Экран режима NVL показывает диалог NVL персонажей.
-
-## Границы фона окна NVL.
-define gui.nvl_borders = Borders(0, 15, 0, 30)
-
-## Максимальное число показываемых строк в режиме NVL. Когда количество строчек
-## начинает превышать это значение, старые строчки очищаются.
-define gui.nvl_list_length = 6
-
-## Высота доступных строчек в режиме NVL. Установите на None, чтобы строчки
-## динамически регулировали свою высоту.
-define gui.nvl_height = 173
-
-## Интервал между строчками в режиме NVL, если gui.nvl_height имеет значение
-## None, а также между строчками и меню режима NVL.
-define gui.nvl_spacing = 15
-
-## Местоположение, ширина и выравнивание заголовка, показывающего имя говорящего
-## персонажа.
-define gui.nvl_name_xpos = 645
-define gui.nvl_name_ypos = 0
-define gui.nvl_name_width = 225
-define gui.nvl_name_xalign = 1.0
-
-## Местоположение, ширина и выравнивание диалогового текста.
-define gui.nvl_text_xpos = 675
-define gui.nvl_text_ypos = 12
-define gui.nvl_text_width = 885
-define gui.nvl_text_xalign = 0.0
-
-## Местоположение, ширина и выравнивание текста nvl_thought (текст от лица
-## персонажа nvl_narrator).
-define gui.nvl_thought_xpos = 360
-define gui.nvl_thought_ypos = 0
-define gui.nvl_thought_width = 1170
-define gui.nvl_thought_xalign = 0.0
-
-## Местоположение кнопок меню NVL.
-define gui.nvl_button_xpos = 675
-define gui.nvl_button_xalign = 0.0
-
-
 ## Локализация #################################################################
 
 ## Эта настройка контролирует доступ к разрыву линий. Стандартная настройка
@@ -468,19 +424,3 @@ init python:
         ## Местоположение кнопок слотов.
         gui.file_slot_cols = 2
         gui.file_slot_rows = 2
-
-        ## Режим NVL.
-        gui.nvl_height = 255
-
-        gui.nvl_name_width = 458
-        gui.nvl_name_xpos = 488
-
-        gui.nvl_text_width = 1373
-        gui.nvl_text_xpos = 518
-        gui.nvl_text_ypos = 8
-
-        gui.nvl_thought_width = 1860
-        gui.nvl_thought_xpos = 30
-
-        gui.nvl_button_width = 1860
-        gui.nvl_button_xpos = 30
