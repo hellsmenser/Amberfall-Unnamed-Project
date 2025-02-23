@@ -27,11 +27,13 @@ screen say(who, what):
         id "window"
 
         if who is not None:
-
+            background Image("gui/textbox_long.png", xalign=0.5, yalign=1.0)
             window:
                 id "namebox"
                 style "namebox"
                 text who id "who"
+        else:
+            background Image("gui/textbox_nn.png", xalign=0.5, yalign=1.0)
 
         text what id "what"
 

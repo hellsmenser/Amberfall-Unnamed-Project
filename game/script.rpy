@@ -15,7 +15,7 @@ label start:
 
     show eileen happy
 
-    e "Вы создали новую игру Ren'Py."
+    e "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque quam id diam facilisis consectetur. Sed fringilla a risus in volutpat. Sed vulputate dictum felis, quis volutpat massa fermentum egestas. Aliquam erat volutpat. Aenean id maximus eros, nec aliquet velit. Aenean vel nibh eget turpis interdum aliquam."
 
     e "Добавьте сюжет, изображения и музыку и отправьте её в мир!"
 

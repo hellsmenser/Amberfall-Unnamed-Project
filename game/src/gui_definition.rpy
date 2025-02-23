@@ -83,9 +83,6 @@ style namebox:
     ypos gui.name_ypos
     ysize gui.namebox_height
 
-    background Frame("gui/window_icon.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
-    padding gui.namebox_borders.padding
-
 style say_label is default
 style say_label:
     properties gui.text_properties("name", accent=True)
