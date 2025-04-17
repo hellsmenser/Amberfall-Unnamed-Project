@@ -140,3 +140,13 @@ image anon_boss shocked = im.Flip("game\images\anon_boss\anon_boss_shocked.png",
 image anon_boss considering = im.Flip("game\images\anon_boss\anon_boss_considering.png", horizontal=True)
 image anon_boss happy = im.Flip("game\images\anon_boss\anon_boss_happy.png", horizontal=True)
 image anon_boss fear = im.Flip("game\images\anon_boss\anon_boss_fear.png", horizontal=True)
+
+
+#BGs
+image amber_bedroom = im.Flip("game\images\bg\amber_bedroom.png", horizontal=True)
+image enterance = im.Flip("game\images\bg\enterance.png", horizontal=True)
+image garage = im.Flip("game\images\bg\garage.png", horizontal=True)
+image hall = im.Flip("game\images\bg\hall.png", horizontal=True)
+image kitchen = im.Flip("game\images\bg\kitchen.png", horizontal=True)
+image livingroom = im.Flip("game\images\bg\livingroom.png", horizontal=True)
+image main_bedroom = im.Flip("game\images\bg\main_bedroom.png", horizontal=True)
