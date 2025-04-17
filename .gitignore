@@ -15,6 +15,8 @@ persistent
 cache/
 tmp/
 log.txt
+errors.txt
+traceback.txt
 
 # Сейвы игры
 game/saves/*
@@ -26,6 +28,7 @@ dist/
 *.rpa  # Упакованные архивы Ren'Py
 *.rpyc # Скомпилированные сценарные файлы
 *.rpyb # Байткод сценариев
+/game/src/*.rpyc
 
 # Виртуальное окружение Python (если используется)
 venv/
