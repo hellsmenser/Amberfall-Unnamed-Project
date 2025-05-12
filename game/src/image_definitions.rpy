@@ -1,3 +1,5 @@
+define unknown = Character("???", color="#fff")
+
 #Anon block
 define anon = Character("Анон", color="#c8ffc8")
 image anon neutral = "images/anon/anon_neutral.png"
@@ -97,6 +99,8 @@ image ripley shocked flipped = im.Flip("images/ripley/ripley_shocked.png", horiz
 image ripley considering flipped = im.Flip("images/ripley/ripley_considering.png", horizontal=True)
 image ripley happy flipped = im.Flip("images/ripley/ripley_happy.png", horizontal=True)
 image ripley fear flipped = im.Flip("images/ripley/ripley_fear.png", horizontal=True)
+
+define ripley_and_samantha Character("Рипли и Саманта", color="#74310a")
 
 #Reed block
 define reed = Character("Рид", color="#b94c4c")
