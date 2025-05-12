@@ -3,6 +3,7 @@ define m_intro            = ""
 define m_lofi_kitchen     = ""
 define m_evening          = ""
 define m_party            = ""
+define m_nostalgy         = ""
 
 #SFX
 define s_sizzle           = ""

@@ -1,10 +1,13 @@
-label initstats(anon=0, talk_time=0, amber=0, story1=False, story2=false):
-    
-   $ anon_score = anon
-   $ talk_time = lucy
-   $ amber_score = amber
-   $ story_1 = story1
-   $ story_2 = story2
+label initstats:
+   default anon_score = 0
+   default talk_time = 0
+   default amber_score = 0
+   default story_1 = False
+   default story_2 = False
+   
+   default poster_added = False
+   default flags_added = False
+   default balloons_added = False
    return
 
 label get_ending:
