@@ -263,6 +263,10 @@ image anon_boss considering flipped = im.Flip("images/anon_boss/anon_boss_consid
 image anon_boss happy flipped = im.Flip("images/anon_boss/anon_boss_happy.png", horizontal=True)
 image anon_boss fear flipped = im.Flip("images/anon_boss/anon_boss_fear.png", horizontal=True)
 
+#Old hag block
+define old_hag = Character("Старушка", color="#696216")
+image old_hag neutral = "images/Old_hag/Old_hag.png"
+
 transform def_center:
     xalign 0.5 yalign 0.1
 transform def_left:
@@ -310,6 +314,9 @@ image decorated_livingroom = Composite(
 image main_bedroom = "images/bg/main_bedroom.png"
 image black = "images/bg/black.png"
 image white = "images/bg/white.png"
+image street = "images/bg/street.png"
+image shop_outside = "images/bg/shop_outside.png"
+image shop_inside = "images/bg/shop_inside.png"
 
 #utility
 image phone_hand = "images/utility/phone_hand.png"
