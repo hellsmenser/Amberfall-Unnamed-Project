@@ -207,7 +207,7 @@ label ch1_bday_congrats:
     "Оставляя позади злосчастную ступеньку, я вижу..."
     "Недовольную мордашку Эмбер. Такую, словно я выставил на показ её детские постыдные фотографии."
 
-    show ember angry at low_left with dissolve
+    show amber angry at low_left with dissolve
     amber "Раптор Всемогущий, пап..."
     show anon fear flipped at def_right with dissolve
     anon "Э... да?"
@@ -232,14 +232,14 @@ label ch1_bday_congrats:
     lucy "Конечно."
     "Наконец-то у неё смягчается выражение лица. Спасибо, Люси, ты меня спасла."
 
-    show ember neutral at low_left with dissolve
+    show amber neutral at low_left with dissolve
     "Эмбер подходит к столу, развязывает бант, раскрывает коробку и вынимает содержимое."
     play sound s_flash
-    show ember surprised at low_left with dissolve
+    show amber surprised at low_left with dissolve
     amber "Это…"
     "Юная птеро улыбается, видя содержимое."
 
-    show ember happy at low_left with dissolve
+    show amber happy at low_left with dissolve
     amber "Скейт!"
     amber "Круть."
     "Она поворачивается к нам."
@@ -273,7 +273,7 @@ label ch1_bday_congrats:
     "Действительно."
 
     "Как только завтрак был подан на стол, в комнате появляется Эмбер..."
-    show ember neutral at low_left with dissolve
+    show amber neutral at low_left with dissolve
     "Юная птеро уже собиралась сесть за стол, но, пошарившись в своих карманах, остановилась. Кажется, она что-то забыла."
     amber "Ох, блин. Я за телефоном. Без меня не начинать!"
     lucy "Только не долго, сейчас должны позвонить Бабушка и Деду-"
@@ -283,7 +283,7 @@ label ch1_bday_congrats:
     "Как только трубку сняли и поставили на громкую связь, голоса стариков с радостной интонацией заговорили наперебой."
     ripley_and_samantha "С ДНЁМ РОЖДЕНИЯ, ВНУЧЕНЬКА!!!"
 
-    show ember happy at low_left with dissolve
+    show amber happy at low_left with dissolve
     amber "Спасибо!"
     samantha "Привет Люси, Анон, дорогие!"
     lucy "Привет! Звоните вы как всегда минута в минуту."
@@ -299,7 +299,7 @@ label ch1_bday_congrats:
     lucy "Хмм… Вообще да, вы же говорили, что приедете."
     samantha "Ооохх… Дорогая, мы действительно хотели, но…"
     ripley "Эти сволочи отменили рейс, ты представляешь?"
-    show ember sad at low_left with dissolve
+    show amber sad at low_left with dissolve
     amber "Мммм…"
     anon "Так вроде же метеор пролетел мимо."
     "Я нервно посмеялся."
@@ -337,7 +337,7 @@ label ch1_bday_congrats:
     "Незер ухмыляется. Эмбер стесняется."
     amber "М-да, украсил…"
 
-    show ember happy at low_left with dissolve
+    show amber happy at low_left with dissolve
     amber "Дядь Незер, а Вы сегодня приедете? Или как всегда будете наращивать мешки под глазами?"
     neser "Приеду, приеду. Буду вечером, обещаю."
     amber "Ждём вас, дядь Незер!"
@@ -411,7 +411,7 @@ label ch1_visit_reed:
     show reed neutral at def_center with dissolve
     reed "Да, да…"
 
-    show ember neutral at low_left with dissolve
+    show amber neutral at low_left with dissolve
     amber "Дядя Рид…"
     "Услышав её голос, Рид сразу оживился."
     show reed happy at def_center with dissolve
@@ -424,8 +424,8 @@ label ch1_visit_reed:
 
     show reed happy at def_center with dissolve
     "Сомнительный совет, но толика правды в нём есть."
-    show ember considering at low_left with dissolve
-    show ember happy at low_left with dissolve
+    show amber considering at low_left with dissolve
+    show amber happy at low_left with dissolve
     amber "Да… Спасибо, дядь Рид."
 
     show reed explainatory at def_center with dissolve
@@ -461,7 +461,7 @@ label ch1_visit_reed:
     "Он снова залез в рюкзак, на этот раз достав из него достаточно солидную пачку купюр по десять баксов."
     reed "Тебе, Эмби, от тёти Триш."
 
-    show ember happy at low_left
+    show amber happy at low_left
     "Эмбер не стала медлить и сразу же положила деньги к себе в карман."
     amber "Спасибо, дядя. И Триш тоже спасибо передай, хорошо?"
     reed "Разумеется, Эмби."
