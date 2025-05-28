@@ -267,6 +267,8 @@ image anon_boss fear flipped = im.Flip("images/anon_boss/anon_boss_fear.png", ho
 define old_hag = Character("Старушка", color="#696216")
 image old_hag neutral = "images/Old_hag/Old_hag.png"
 
+define all = Character("Все", color="#ffffff")
+
 transform def_center:
     xalign 0.5 yalign 0.1
 transform def_left:
