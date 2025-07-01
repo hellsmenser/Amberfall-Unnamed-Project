@@ -100,7 +100,7 @@ image ripley considering flipped = im.Flip("images/ripley/ripley_considering.png
 image ripley happy flipped = im.Flip("images/ripley/ripley_happy.png", horizontal=True)
 image ripley fear flipped = im.Flip("images/ripley/ripley_fear.png", horizontal=True)
 
-define ripley_and_samantha Character("Рипли и Саманта", color="#74310a")
+define ripley_and_samantha = Character("Рипли и Саманта", color="#74310a")
 
 #Reed block
 define reed = Character("Рид", color="#b94c4c")
