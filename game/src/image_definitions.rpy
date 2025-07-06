@@ -263,9 +263,32 @@ image anon_boss considering flipped = im.Flip("images/anon_boss/anon_boss_consid
 image anon_boss happy flipped = im.Flip("images/anon_boss/anon_boss_happy.png", horizontal=True)
 image anon_boss fear flipped = im.Flip("images/anon_boss/anon_boss_fear.png", horizontal=True)
 
+#Stoic
+define stoic = Character("Стоик", color="#8edff3")
+image stoic neutral = "images/stoic/stoic_neutral.png"
+image stoic angry = "images/stoic/stoic_angry.png"
+image stoic very angry = "images/stoic/stoic_very angry.png"
+image stoic sad = "images/stoic/stoic_sad.png"
+image stoic shocked = "images/stoic/stoic_shocked.png"
+image stoic considering = "images/stoic/stoic_considering.png"
+image stoic happy = "images/stoic/stoic_happy.png"
+image stoic fear = "images/stoic/stoic_fear.png"
+
+image stoic neutral flipped = im.Flip("images/stoic/stoic_neutral.png", horizontal=True)
+image stoic angry flipped = im.Flip("images/stoic/stoic_angry.png", horizontal=True)
+image stoic very angry flipped = im.Flip("images/stoic/stoic_very angry.png", horizontal=True)
+image stoic sad flipped = im.Flip("images/stoic/stoic_sad.png", horizontal=True)
+image stoic shocked flipped = im.Flip("images/stoic/stoic_shocked.png", horizontal=True)
+image stoic considering flipped = im.Flip("images/stoic/stoic_considering.png", horizontal=True)
+image stoic happy flipped = im.Flip("images/stoic/stoic_happy.png", horizontal=True)
+image stoic fear flipped = im.Flip("images/stoic/stoic_fear.png", horizontal=True)
+
 #Old hag block
 define old_hag = Character("Старушка", color="#696216")
 image old_hag neutral = "images/Old_hag/Old_hag.png"
+
+define leon = Character("Леон Каневский", color="#8edff3")
+image leon neutral = "images/leon/leon_neutral.png"
 
 define all = Character("Все", color="#ffffff")
 
@@ -319,6 +342,7 @@ image white = "images/bg/white.png"
 image street = "images/bg/street.png"
 image shop_outside = "images/bg/shop_outside.png"
 image shop_inside = "images/bg/shop_inside.png"
+image dark_garage = "images/bg/dark_garage.png"
 
 #utility
 image phone_hand = "images/utility/phone_hand.png"
